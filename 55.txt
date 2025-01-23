@@ -1,7 +1,42 @@
-new file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #18d7ce;
+        }
+        .scrolling-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #cd2029;
+            animation: scrollText 5s linear infinite;
+        }
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .dog-picture {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+Bajji</h2>
+<body>
+    <div class="scrolling-text">Bajji Ujji</div>
+    <img src="pic.jpeg" alt="home" class="thunder" width="400">
+</body>
+</html>
 
-1
-
-2
-
-3 
